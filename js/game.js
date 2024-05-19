@@ -15,17 +15,17 @@ const config = {
   width: 1920,
   height: 1080,
   physics: {
-    default: 'arcade',
+  default: 'arcade',
     arcade: {
-      debug: true
+      debug: false
     }
   },
   //set background color
   backgroundColor: 0xffffff,
   scale: {
     mode: Phaser.Scale.FIT,
-    //we need to place it in the middle of the page
-    autoCenter: Phaser.Scale.CENTER_BOTH
+      //we need to place it in the middle of the page
+      autoCenter: Phaser.Scale.CENTER_BOTH
   }
 }
 

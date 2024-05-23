@@ -24,7 +24,7 @@ class SplashScene extends Phaser.Scene {
   }
   // when the game updates every few hundred miliseconds it runs this function
   update(time, delta) {
-    if (time > 4850) {
+    if (time > 9000) {
       this.scene.switch('titleScene')
     }
   }
